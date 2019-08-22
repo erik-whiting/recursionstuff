@@ -28,3 +28,21 @@ int main() {
     printf("ending n address: %p: %d", &n, n);
     return 0;
 }
+
+//Output:
+//starting n address: 0x7ffdf3c488a4: 4
+//
+//0x7ffdf3c4888c: 4
+//0x7ffdf3c4886c: 3
+//0x7ffdf3c4884c: 2
+//0x7ffdf3c4882c: 1
+//
+//starting 'recurse1' now
+//
+//0x7ffdf3c4882c: 1
+//0x7ffdf3c4884c: 2
+//0x7ffdf3c4886c: 3
+//0x7ffdf3c4888c: 4
+//
+//
+//ending n address: 0x7ffdf3c488a4: 4
